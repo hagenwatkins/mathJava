@@ -17,12 +17,12 @@ public class Main {
         double difference = operand1 - operand2;
         double division = operand1 / operand2;
         double multiplication = operand1 * operand2;
-
+        double remainder = operand1 % operand2;
         System.out.println("the sum is "+ sum);
         System.out.println("the result is "+ difference);
         System.out.println("the result is "+ division);
         System.out.println("the result is "+ multiplication);
-
+        System.out.println("the result is "+ remainder);
 
 
 
